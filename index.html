@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Getafe, ciudad favorita del alumno Diego</title>
+  <meta name="description" content="Página web en HTML sobre Getafe como destino de viaje, con estilo visual inspirado en portales de reservas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#inicio">TravelGetafe</a>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#destino">Destino</a>
+        <a href="#galeria">Fotografías</a>
+        <a href="#historia">Historia</a>
+        <a href="#turismo">Turismo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="eyebrow">Destino destacado</span>
+          <h1>El alumno <strong>Diego</strong> va a viajar a <span>Getafe</span>, su ciudad favorita.</h1>
+          <p>
+            Un destino al sur de Madrid con historia, patrimonio, zonas verdes y rincones culturales que merecen una visita.
+            Esta página presenta una propuesta de viaje con una estética inspirada en los grandes portales de reservas: limpia,
+            visual y orientada a descubrir lugares de interés.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#turismo">Descubrir lugares</a>
+            <a class="btn btn--ghost" href="#enlaces">Ver enlaces útiles</a>
+          </div>
+        </div>
+
+        <aside class="search-card" aria-label="Resumen del viaje">
+          <div class="search-card__header">Resumen del viaje</div>
+          <div class="search-card__body">
+            <div class="fact">
+              <span>Destino</span>
+              <strong>Getafe</strong>
+            </div>
+            <div class="fact">
+              <span>Viaja</span>
+              <strong>Alumno Diego</strong>
+            </div>
+            <div class="fact">
+              <span>Tipo de plan</span>
+              <strong>Historia · Turismo · Paseos</strong>
+            </div>
+            <div class="fact">
+              <span>Ambiente</span>
+              <strong>Urbano, cultural y natural</strong>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="highlights" id="destino">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Por qué visitar Getafe</span>
+          <h2>Una ciudad con patrimonio, tradición y buenas conexiones</h2>
+          <p>Getafe combina monumentos emblemáticos, historia local y espacios abiertos perfectos para una escapada cultural.</p>
+        </div>
+
+        <div class="cards cards--3">
+          <article class="card">
+            <h3>Cerro de los Ángeles</h3>
+            <p>Uno de los lugares más emblemáticos de la ciudad, conocido tradicionalmente como centro geográfico de la península ibérica.</p>
+          </article>
+          <article class="card">
+            <h3>Catedral de La Magdalena</h3>
+            <p>Un referente patrimonial de Getafe con una mezcla de estilos arquitectónicos y gran valor histórico.</p>
+          </article>
+          <article class="card">
+            <h3>Casco urbano y cultura</h3>
+            <p>Plazas, edificios históricos y vida local convierten a Getafe en una visita interesante más allá de una excursión rápida.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Fotografías de Getafe</span>
+          <h2>Imágenes representativas del destino</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card gallery-card--large">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Cerro-angeles1.jpg/960px-Cerro-angeles1.jpg" alt="Monumento del Cerro de los Ángeles en Getafe" />
+            <figcaption>Cerro de los Ángeles</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Getafe_-_Catedral_de_Nuestra_Se%C3%B1ora_de_la_Magdalena_12.jpg/960px-Getafe_-_Catedral_de_Nuestra_Se%C3%B1ora_de_la_Magdalena_12.jpg" alt="Catedral de Nuestra Señora de la Magdalena en Getafe" />
+            <figcaption>Catedral de La Magdalena</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Getafe-ayuntamiento1b.jpg/330px-Getafe-ayuntamiento1b.jpg" alt="Ayuntamiento de Getafe" />
+            <figcaption>Ayuntamiento de Getafe</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="historia">
+      <div class="container split">
+        <div>
+          <span class="section-kicker">Historia</span>
+          <h2>Un pasado que se remonta a épocas antiguas</h2>
+          <p>
+            Getafe ha sido testigo de la evolución humana desde el Paleolítico Inferior. En la zona se han hallado restos como herramientas de piedra,
+            vestigios romanos en la villa de La Torrecilla y legado visigodo en necrópolis próximas. La localidad fue formándose como núcleo urbano a partir de 1326,
+            y con el tiempo consolidó monumentos de gran relevancia como la iglesia —hoy catedral— de Nuestra Señora de la Magdalena.
+          </p>
+        </div>
+        <div class="info-box">
+          <h3>Ideas para la visita</h3>
+          <ul>
+            <li>Pasear por el casco histórico.</li>
+            <li>Visitar el Cerro de los Ángeles.</li>
+            <li>Descubrir el patrimonio religioso y civil.</li>
+            <li>Consultar agenda cultural y actividades del municipio.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tourism" id="turismo">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Turismo</span>
+          <h2>Lugares y planes de interés</h2>
+          <p>Selección de rincones recomendados para una página escolar o una presentación introductoria del destino.</p>
+        </div>
+
+        <div class="cards cards--3">
+          <article class="card itinerary-card">
+            <span class="badge">Patrimonio</span>
+            <h3>Catedral de La Magdalena</h3>
+            <p>Edificio destacado por su valor artístico y por su presencia en la identidad histórica de Getafe.</p>
+          </article>
+          <article class="card itinerary-card">
+            <span class="badge">Naturaleza</span>
+            <h3>Cerro de los Ángeles</h3>
+            <p>Espacio simbólico, monumental y muy vinculado a la imagen exterior de la localidad.</p>
+          </article>
+          <article class="card itinerary-card">
+            <span class="badge">Descubrimiento</span>
+            <h3>Perales del Río y entorno del Manzanares</h3>
+            <p>Zona conectada con la historia del territorio y con paisajes naturales citados en guías turísticas de la Comunidad de Madrid.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="links" id="enlaces">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Enlaces interesantes</span>
+          <h2>Historia, turismo y recursos para ampliar información</h2>
+        </div>
+
+        <div class="cards cards--2">
+          <article class="card link-card">
+            <h3>Turismo oficial y agenda</h3>
+            <ul>
+              <li><a href="https://getafe.es/" target="_blank" rel="noopener noreferrer">Ayuntamiento de Getafe</a></li>
+              <li><a href="https://www.visitmadrid.es/donde-ir/area-metropolitana-madrid/getafe" target="_blank" rel="noopener noreferrer">Getafe en VisitMadrid</a></li>
+              <li><a href="https://www.madrid.org/monumentoscercanias/getafe.html" target="_blank" rel="noopener noreferrer">Monumentos de Getafe en la Comunidad de Madrid</a></li>
+            </ul>
+          </article>
+          <article class="card link-card">
+            <h3>Historia y material visual</h3>
+            <ul>
+              <li><a href="https://es.wikipedia.org/wiki/Getafe" target="_blank" rel="noopener noreferrer">Wikipedia: Getafe</a></li>
+              <li><a href="https://commons.wikimedia.org/wiki/Getafe" target="_blank" rel="noopener noreferrer">Wikimedia Commons: Getafe</a></li>
+              <li><a href="https://commons.wikimedia.org/wiki/Category:History_of_Getafe" target="_blank" rel="noopener noreferrer">Historia de Getafe en Wikimedia Commons</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Proyecto HTML sobre Getafe como destino de viaje · Estética inspirada en portales de reservas (sin reproducir marca ni elementos protegidos).</p>
+      <p>Alumno Diego · <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
